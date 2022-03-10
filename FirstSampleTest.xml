@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="SampleTest" data-provider-thread-count="2">
+<suite name="SampleTest" data-provider-thread-count="1">
 	<listeners>
 		<listener class-name="com.tmb.listeners.ListenerClass"></listener>
 		<listener class-name="com.tmb.listeners.MethodInterceptor"></listener>
 		<listener
 			class-name="com.tmb.listeners.AnnotationTransformer"></listener>
 	</listeners>
-	<test thread-count="2" name="SampleTest" parallel="methods">
+	<test thread-count="1" name="SampleTest" parallel="methods">
 		<classes>
 			<class name="com.tmb.tests.OrangeHRMTests" />
 			<class name="com.tmb.tests.AmazonTests" />
