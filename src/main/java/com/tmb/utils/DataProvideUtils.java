@@ -13,7 +13,7 @@ public final class DataProvideUtils {
 
 	private static List<Map<String, String>> testdata = new ArrayList<>();
 
-	@DataProvider(parallel = true)
+	@DataProvider(parallel = false)
 	public static Object[] getData(Method m) {
 
 		if (testdata.isEmpty()) {
