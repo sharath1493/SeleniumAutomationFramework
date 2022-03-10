@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="0" failed="8" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-08T22:08:11 IST" name="SampleTest" finished-at="2022-03-08T22:09:44 IST" duration-ms="92579">
+    <groups>
+    </groups>
+    <test started-at="2022-03-08T22:08:11 IST" name="SampleTest" finished-at="2022-03-08T22:09:44 IST" duration-ms="92579">
+      <class name="com.tmb.tests.OrangeHRMTests">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;,java.lang.reflect.Method)[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:08:12 IST" name="setUp" finished-at="2022-03-08T22:08:32 IST" duration-ms="20531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@69fa8e76]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.tmb.tests.OrangeHRMTests.newTest(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;,java.lang.reflect.Method)[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:08:12 IST" name="setUp" finished-at="2022-03-08T22:08:35 IST" duration-ms="22965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@31f20c9f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.tmb.tests.OrangeHRMTests.test(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;,java.lang.reflect.Method)[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:08:12 IST" name="setUp" finished-at="2022-03-08T22:08:34 IST" duration-ms="22501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@f446158]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.tmb.tests.OrangeHRMTests.newTest(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="newTest(java.util.Map)[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:08:32 IST" name="newTest" description="Kotha Test Mawa" data-provider="getData" finished-at="2022-03-08T22:08:35 IST" duration-ms="2477" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=admin123, testname=newTest, execute=yes, browser=firefox, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+expected: "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
+ but was: "https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+expected: "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
+ but was: "https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"
+at com.tmb.tests.OrangeHRMTests.newTest(OrangeHRMTests.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTest -->
+        <test-method signature="newTest(java.util.Map)[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:08:34 IST" name="newTest" description="Kotha Test Mawa" data-provider="getData" finished-at="2022-03-08T22:08:37 IST" duration-ms="2196" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=admi, testname=newTest, execute=yes, browser=chrome, username=abch1}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+expected: "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
+ but was: "https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+expected: "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
+ but was: "https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"
+at com.tmb.tests.OrangeHRMTests.newTest(OrangeHRMTests.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTest -->
+        <test-method signature="test(java.util.Map)[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:08:35 IST" name="test" description="edo okati" data-provider="getData" finished-at="2022-03-08T22:08:35 IST" duration-ms="27" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=', testname=test, execute=yes, browser=chrome, username='}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.tmb.tests.OrangeHRMTests.test(OrangeHRMTests.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:08:35 IST" name="tearDown" finished-at="2022-03-08T22:08:44 IST" duration-ms="9111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:08:35 IST" name="tearDown" finished-at="2022-03-08T22:08:36 IST" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;,java.lang.reflect.Method)[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:08:36 IST" name="setUp" finished-at="2022-03-08T22:08:57 IST" duration-ms="21015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@32f0c7f8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.tmb.tests.OrangeHRMTests.validateLoginLogout(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;,java.lang.reflect.Method)[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:08:36 IST" name="setUp" finished-at="2022-03-08T22:08:58 IST" duration-ms="22199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@504e1599]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.tmb.tests.OrangeHRMTests.validateLoginLogout(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:08:37 IST" name="tearDown" finished-at="2022-03-08T22:08:38 IST" duration-ms="1252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;,java.lang.reflect.Method)[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:08:38 IST" name="setUp" finished-at="2022-03-08T22:08:57 IST" duration-ms="18784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@71f96dfb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.tmb.tests.OrangeHRMTests.newTest(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="newTest(java.util.Map)[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:08:57 IST" name="newTest" description="Kotha Test Mawa" data-provider="getData" finished-at="2022-03-08T22:08:59 IST" duration-ms="2243" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=admin123, testname=newTest, execute=yes, browser=edge, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+expected: "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
+ but was: "https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+expected: "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
+ but was: "https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"
+at com.tmb.tests.OrangeHRMTests.newTest(OrangeHRMTests.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTest -->
+        <test-method signature="validateLoginLogout(java.util.Map)[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:08:57 IST" name="validateLoginLogout" description="path test mawa" data-provider="getData" finished-at="2022-03-08T22:08:59 IST" duration-ms="2162" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=admin123, testname=validateLoginLogout, execute=yes, browser=chrome, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+expected: "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
+ but was: "https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+expected: "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
+ but was: "https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"
+at com.tmb.tests.OrangeHRMTests.validateLoginLogout(OrangeHRMTests.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginLogout -->
+        <test-method signature="validateLoginLogout(java.util.Map)[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:08:58 IST" name="validateLoginLogout" description="path test mawa" data-provider="getData" finished-at="2022-03-08T22:09:00 IST" duration-ms="1930" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=admin, testname=validateLoginLogout, execute=yes, browser=edge, username=abch2}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+expected: "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
+ but was: "https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+expected: "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
+ but was: "https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"
+at com.tmb.tests.OrangeHRMTests.validateLoginLogout(OrangeHRMTests.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:08:59 IST" name="tearDown" finished-at="2022-03-08T22:09:01 IST" duration-ms="1353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:08:59 IST" name="tearDown" finished-at="2022-03-08T22:09:00 IST" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:09:00 IST" name="tearDown" finished-at="2022-03-08T22:09:02 IST" duration-ms="1925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;,java.lang.reflect.Method)[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:09:01 IST" name="setUp" finished-at="2022-03-08T22:09:24 IST" duration-ms="23014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@69e05f61]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.tmb.tests.OrangeHRMTests.validateLoginLogout(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginLogout(java.util.Map)[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:09:24 IST" name="validateLoginLogout" description="path test mawa" data-provider="getData" finished-at="2022-03-08T22:09:25 IST" duration-ms="1855" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=admin123, testname=validateLoginLogout, execute=yes, browser=firefox, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+expected: "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
+ but was: "https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+expected: "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
+ but was: "https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"
+at com.tmb.tests.OrangeHRMTests.validateLoginLogout(OrangeHRMTests.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmb.tests.OrangeHRMTests@6574a52c]" started-at="2022-03-08T22:09:28 IST" name="tearDown" finished-at="2022-03-08T22:09:33 IST" duration-ms="5622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tmb.tests.OrangeHRMTests -->
+      <class name="com.tmb.tests.AmazonTests">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;,java.lang.reflect.Method)[pri:0, instance:com.tmb.tests.AmazonTests@3e8c3cb]" started-at="2022-03-08T22:09:00 IST" name="setUp" finished-at="2022-03-08T22:09:25 IST" duration-ms="24599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5d1b9c3d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.tmb.tests.AmazonTests.demoAmazonTest(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="demoAmazonTest(java.util.Map)[pri:0, instance:com.tmb.tests.AmazonTests@3e8c3cb]" started-at="2022-03-08T22:09:25 IST" name="demoAmazonTest" description="Amazon Link Test" data-provider="getData" finished-at="2022-03-08T22:09:40 IST" duration-ms="15522" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=', testname=demoAmazonTest, execute=yes, browser=firefox, username='}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //a[@id='nav-hamburger-menu'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-J15UI2E7', ip: '192.168.0.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220304162637, moz:debuggerAddress: localhost:49629, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23412, moz:profile: C:\Users\shara\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:49629/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 943ac426-9d0e-4773-8c9e-f2a4c842e785]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@id='nav-hamburger-menu'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-J15UI2E7', ip: '192.168.0.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220304162637, moz:debuggerAddress: localhost:49629, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23412, moz:profile: C:\Users\shara\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:49629/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 943ac426-9d0e-4773-8c9e-f2a4c842e785
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.tmb.factories.ExplicitWaitFactory.performExplicitWait(ExplicitWaitFactory.java:22)
+at com.tmb.pages.BasePage.doClick(BasePage.java:29)
+at com.tmb.pages.AmazonHomePage.clickHamburgerMenu(AmazonHomePage.java:13)
+at com.tmb.tests.AmazonTests.demoAmazonTest(AmazonTests.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAmazonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmb.tests.AmazonTests@3e8c3cb]" started-at="2022-03-08T22:09:41 IST" name="tearDown" finished-at="2022-03-08T22:09:44 IST" duration-ms="2454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tmb.tests.AmazonTests -->
+    </test> <!-- SampleTest -->
+  </suite> <!-- SampleTest -->
+</testng-results>

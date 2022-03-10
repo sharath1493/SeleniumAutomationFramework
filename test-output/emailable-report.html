@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">SampleTest</th></tr>
+<tr><td><a href="#t0">SampleTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">8</td><td class="num">92,579</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SampleTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SampleTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.tmb.tests.AmazonTests</td><td><a href="#m0">demoAmazonTest</a></td><td rowspan="1">1646757565289</td><td rowspan="1">15522</td></tr><tr class="failedodd"><td rowspan="7">com.tmb.tests.OrangeHRMTests</td><td><a href="#m1">newTest</a></td><td rowspan="3">1646757512877</td><td rowspan="3">2477</td></tr><tr class="failedodd"><td><a href="#m2">newTest</a></td></tr><tr class="failedodd"><td><a href="#m3">newTest</a></td></tr><tr class="failedodd"><td><a href="#m4">test</a></td><td rowspan="1">1646757515311</td><td rowspan="1">27</td></tr><tr class="failedodd"><td><a href="#m5">validateLoginLogout</a></td><td rowspan="3">1646757538517</td><td rowspan="3">1930</td></tr><tr class="failedodd"><td><a href="#m6">validateLoginLogout</a></td></tr><tr class="failedodd"><td><a href="#m7">validateLoginLogout</a></td></tr></tbody>
+</table>
+<h2>SampleTest</h2><h3 id="m0">com.tmb.tests.AmazonTests#demoAmazonTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=&apos;, testname=demoAmazonTest, execute=yes, browser=firefox, username=&apos;}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@id=&apos;nav-hamburger-menu&apos;] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;LAPTOP-J15UI2E7&apos;, ip: &apos;192.168.0.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220304162637, moz:debuggerAddress: localhost:49629, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23412, moz:profile: C:\Users\shara\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:49629/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 943ac426-9d0e-4773-8c9e-f2a4c842e785
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.tmb.factories.ExplicitWaitFactory.performExplicitWait(ExplicitWaitFactory.java:22)
+	at com.tmb.pages.BasePage.doClick(BasePage.java:29)
+	at com.tmb.pages.AmazonHomePage.clickHamburgerMenu(AmazonHomePage.java:13)
+	at com.tmb.tests.AmazonTests.demoAmazonTest(AmazonTests.java:23)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.tmb.tests.OrangeHRMTests#newTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=admin123, testname=newTest, execute=yes, browser=firefox, username=Admin}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+expected: &quot;https://opensource-demo.orangehrmlive.com/index.php/dashboard&quot;
+ but was: &quot;https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials&quot;
+	at com.tmb.tests.OrangeHRMTests.newTest(OrangeHRMTests.java:47)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.tmb.tests.OrangeHRMTests#newTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=admi, testname=newTest, execute=yes, browser=chrome, username=abch1}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+expected: &quot;https://opensource-demo.orangehrmlive.com/index.php/dashboard&quot;
+ but was: &quot;https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials&quot;
+	at com.tmb.tests.OrangeHRMTests.newTest(OrangeHRMTests.java:47)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.tmb.tests.OrangeHRMTests#newTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=admin123, testname=newTest, execute=yes, browser=edge, username=Admin}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+expected: &quot;https://opensource-demo.orangehrmlive.com/index.php/dashboard&quot;
+ but was: &quot;https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials&quot;
+	at com.tmb.tests.OrangeHRMTests.newTest(OrangeHRMTests.java:47)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.tmb.tests.OrangeHRMTests#test</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=&apos;, testname=test, execute=yes, browser=chrome, username=&apos;}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.tmb.tests.OrangeHRMTests.test(OrangeHRMTests.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.tmb.tests.OrangeHRMTests#validateLoginLogout</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=admin, testname=validateLoginLogout, execute=yes, browser=edge, username=abch2}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+expected: &quot;https://opensource-demo.orangehrmlive.com/index.php/dashboard&quot;
+ but was: &quot;https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials&quot;
+	at com.tmb.tests.OrangeHRMTests.validateLoginLogout(OrangeHRMTests.java:29)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.tmb.tests.OrangeHRMTests#validateLoginLogout</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=admin123, testname=validateLoginLogout, execute=yes, browser=firefox, username=Admin}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+expected: &quot;https://opensource-demo.orangehrmlive.com/index.php/dashboard&quot;
+ but was: &quot;https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials&quot;
+	at com.tmb.tests.OrangeHRMTests.validateLoginLogout(OrangeHRMTests.java:29)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.tmb.tests.OrangeHRMTests#validateLoginLogout</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=admin123, testname=validateLoginLogout, execute=yes, browser=chrome, username=Admin}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+expected: &quot;https://opensource-demo.orangehrmlive.com/index.php/dashboard&quot;
+ but was: &quot;https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials&quot;
+	at com.tmb.tests.OrangeHRMTests.validateLoginLogout(OrangeHRMTests.java:29)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
